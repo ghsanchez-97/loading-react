@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-pascal-case */
 import React from "react";
 import Tweenful, { percentage } from "react-tweenful";
 
