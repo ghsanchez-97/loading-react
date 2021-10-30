@@ -11,9 +11,11 @@
  --bg-color-9: #632ce4;
  --bg-color-10: #414757;
  --bg-color-11: #060b26;
+ --bg-color-12: #E3DAC9;
 }
 body{
-  background-color: var(--bg-color-6);
+  background-color: var(--bg-color-7);
+  opacity: 1;
 }
 .loading-wrapper {
   width: 100%;
@@ -42,11 +44,11 @@ body{
   margin: auto;
 }
 .loading-circles-container .dot.dot-1 {
-  background-color: var(--bg-color-3);
+  background-color: var(--bg-color-12);
 }
 .loading-circles-container .dot.dot-3 {
-  background-color: var(--bg-color-7);
+  background-color: var(--bg-color-1);
 }
 .loading-circles-container .dot.dot-2 {
-  background-color: var(--bg-color-1);
+  background-color: var(--bg-color-3);
 }
