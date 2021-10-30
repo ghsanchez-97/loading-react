@@ -13,7 +13,7 @@
  --bg-color-11: #060b26;
 }
 body{
-  background-color: var(--bg-color-3);
+  background-color: var(--bg-color-6);
 }
 .loading-wrapper {
   width: 100%;
@@ -42,11 +42,11 @@ body{
   margin: auto;
 }
 .loading-circles-container .dot.dot-1 {
-  background-color: #f74d75;
+  background-color: var(--bg-color-3);
 }
 .loading-circles-container .dot.dot-3 {
-  background-color: var(--bg-color-9);
+  background-color: var(--bg-color-7);
 }
 .loading-circles-container .dot.dot-2 {
-  background-color: #f1952b;
+  background-color: var(--bg-color-1);
 }
