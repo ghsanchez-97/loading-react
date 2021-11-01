@@ -1,4 +1,5 @@
 :root{
+  /* Colors */
  --bg-color-1: #f1952b;
  --bg-color-2 :#2b2828;
  --bg-color-3 :#d8d8d8;
@@ -12,6 +13,10 @@
  --bg-color-10: #414757;
  --bg-color-11: #060b26;
  --bg-color-12: #E3DAC9;
+ /* More Colors */
+ --bg-color-13: #ff9900;
+ --bg-color-14: #ffebcd;
+ --bg-color-15: #e45656;
 }
 body{
   background-color: var(--bg-color-7);
@@ -44,11 +49,11 @@ body{
   margin: auto;
 }
 .loading-circles-container .dot.dot-1 {
-  background-color: var(--bg-color-12);
+  background-color: var(--bg-color-14);
 }
 .loading-circles-container .dot.dot-3 {
-  background-color: var(--bg-color-1);
+  background-color: var(--bg-color-13);
 }
 .loading-circles-container .dot.dot-2 {
-  background-color: var(--bg-color-3);
+  background-color: var(--bg-color-15);
 }
